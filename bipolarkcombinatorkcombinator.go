@@ -9,6 +9,9 @@ import (
 	"math/big"
 )
 
+// Version is the current version of the library, in semver
+const Version = "0.0.1"
+
 // KCombinator represents a function which returns an object, considered "self"
 type KCombinator func() interface{}
 
